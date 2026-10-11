@@ -1,0 +1,80 @@
+{
+  "id": "sigf/terraria-kart-game-takeover",
+  "version": "1.0.0",
+  "name": "Kart Game Takeover",
+  "tagline": "Bring Kart Game into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "kartgame",
+      "role": "guest",
+      "label": "Kart Game"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-kart-game-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "43cf1f8ba2baefd86ff455017482495d631ca52bd46ec5e72c904591e3eef3cf"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-kart-game-takeover/releases/download/v1.0.0/terraria-kart-game-takeover.zip",
+          "sha256": "e24a1a2b81536daf29da3e0afa7ae636809fee25d9ce5ffaf6edb84f9b6ce032",
+          "size": 97234
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-kart-game-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-kart-game-takeover/releases/download/v1.0.0/terraria-kart-game-takeover.zip",
+      "sha256": "e24a1a2b81536daf29da3e0afa7ae636809fee25d9ce5ffaf6edb84f9b6ce032",
+      "size": 97234
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-kart-game-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-11-9d777b81.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-11T00:38:57.475Z"
+}
