@@ -1,0 +1,6 @@
+Moments the clip must show:
+1. [x] The player drives a blue go-kart (0-5 s) while rainbow item boxes float ahead, title "KART GAME TAKEOVER".
+2. [x] Red kart-driving goblins race in, honking, and a kart crash makes one spin out (3-20 s).
+3. [x] Driving through an item box pops a random kart item.
+4. [x] Banana peel on the ground: a goblin or zombie slips and spins (26-40 s).
+5. [x] Homing red shell hits a racer, explodes, and splash spins nearby enemies (40-55 s).
